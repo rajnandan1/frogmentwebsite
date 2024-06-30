@@ -1,6 +1,9 @@
 <script>
 	let hidden = true;
 	import { Menu } from 'lucide-svelte';
+	function clickDownload() {
+		gtag('event', 'download');
+	}
 </script>
 
 <header class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap md:flex-nowrap md:justify-start">
@@ -50,13 +53,14 @@
 				</a>
 
 				<div>
-					<a
+					<button
+						on:click={clickDownload}
 						class="group inline-flex w-full items-center gap-x-2 rounded-full bg-[#75fbb2] px-3 py-2 text-sm font-medium text-neutral-800 focus:outline-none md:w-auto"
 						href="../templates/agency/index.html#contact"
 					>
 						<img src="/apple-logo-svgrepo-com.svg" alt="" class="inline-block h-6" />
 						Download for Mac
-					</a>
+					</button>
 				</div>
 			</div>
 		</div>
