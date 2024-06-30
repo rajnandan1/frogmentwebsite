@@ -33,7 +33,7 @@
 				> tab on the github repository.
 			</Accordion.Content>
 		</Accordion.Item>
-		<Accordion.Item value="item-4">
+		<Accordion.Item value="item-5">
 			<Accordion.Trigger>How do I raise a feature request?</Accordion.Trigger>
 			<Accordion.Content>
 				You can raise a <a

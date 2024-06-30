@@ -5,12 +5,14 @@
 	import Gallery from '$lib/Gallery.svelte';
 	import Faq from '$lib/Faq.svelte';
 	import OSS from '$lib/OSS.svelte';
+	import Shortcuts from '$lib/Shortcuts.svelte';
 </script>
 
 <Nav />
 <Hero />
 <Features />
 <OSS />
+<Shortcuts />
 <Faq />
 <Gallery />
 

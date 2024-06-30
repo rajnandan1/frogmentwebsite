@@ -6,9 +6,9 @@
 	<h2 class="mb-6 text-center text-2xl font-bold sm:mb-12 sm:text-3xl">What Frogment Can do</h2>
 	<div class="grid grid-cols-2 gap-4 py-10">
 		<div
-			class="h-96 w-full rounded-xl border border-black bg-[url('/w_edit-min.png')] bg-cover bg-left-top bg-no-repeat object-cover shadow-xl sm:h-[480px]"
+			class="col-span-2 h-96 w-full rounded-xl border border-black bg-[url('/w_edit-min.png')] bg-cover bg-left-top bg-no-repeat object-cover shadow-xl sm:h-[480px] md:col-span-1"
 		></div>
-		<div class="pl-8">
+		<div class="col-span-2 md:col-span-1 md:pl-8">
 			<div
 				class="mb-2 inline-block rounded-md border-2 border-primary bg-gradient-to-r from-violet-200 to-pink-200 p-2"
 			>
@@ -57,7 +57,7 @@
 		<!-- ... -->
 	</div>
 	<div class="grid grid-cols-2 gap-4 py-20">
-		<div class="pr-8">
+		<div class="col-span-2 md:col-span-1 md:pr-8">
 			<div
 				class="mb-2 inline-block rounded-md border-2 border-primary bg-gradient-to-r from-violet-200 to-pink-200 p-2"
 			>
@@ -104,16 +104,16 @@
 		</div>
 		<!-- ... -->
 		<div
-			class="bg-200% h-96 w-full rounded-xl border border-black bg-[url('/w_lint-min.png')] bg-left-bottom bg-no-repeat object-cover shadow-xl sm:h-[480px]"
+			class="bg-200% col-span-2 h-96 w-full rounded-xl border border-black bg-[url('/w_lint-min.png')] bg-left-bottom bg-no-repeat object-cover shadow-xl sm:h-[480px] md:col-span-1"
 		></div>
 	</div>
 
 	<!-- Two -->
 	<div class="grid grid-cols-2 gap-4 py-20">
 		<div
-			class="h-96 w-full rounded-xl border border-black bg-[url('/w_cat-min.png')] bg-cover bg-left-top bg-no-repeat object-cover shadow-xl sm:h-[480px]"
+			class="col-span-2 h-96 w-full rounded-xl border border-black bg-[url('/w_cat-min.png')] bg-cover bg-left-top bg-no-repeat object-cover shadow-xl sm:h-[480px] md:col-span-1"
 		></div>
-		<div class="pl-8">
+		<div class="col-span-2 md:col-span-1 md:pl-8">
 			<div
 				class="mb-2 inline-block rounded-md border border-primary bg-gradient-to-r from-violet-200 to-pink-200 p-2"
 			>
