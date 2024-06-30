@@ -34,7 +34,7 @@
 	<div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8">
 		<div class="relative mx-auto mt-10 max-w-5xl">
 			<div
-				class="h-96 w-full rounded-xl border border-black bg-[url('/w_editor.png')] bg-cover bg-top bg-no-repeat object-cover sm:h-[480px]"
+				class="h-96 w-full rounded-xl border border-black bg-[url('/w_editor-min.png')] bg-cover bg-top bg-no-repeat object-cover sm:h-[480px]"
 			></div>
 
 			<div

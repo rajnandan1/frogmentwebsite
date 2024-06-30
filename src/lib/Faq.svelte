@@ -24,12 +24,23 @@
 			>
 		</Accordion.Item>
 		<Accordion.Item value="item-4">
-			<Accordion.Trigger>How do I raise a bug or request a feature?</Accordion.Trigger>
+			<Accordion.Trigger>How do I raise a bug?</Accordion.Trigger>
 			<Accordion.Content>
 				You can raise a bug by going to the <a
 					class="text-blue-500"
-					href="https://github.com/rajnandan1/frogmentwebsite/issues">issues</a
+					href="https://github.com/rajnandan1/frogmentwebsite/issues/new?assignees=&labels=&projects=&template=bug_report.md&title="
+					>issues</a
 				> tab on the github repository.
+			</Accordion.Content>
+		</Accordion.Item>
+		<Accordion.Item value="item-4">
+			<Accordion.Trigger>How do I raise a feature request?</Accordion.Trigger>
+			<Accordion.Content>
+				You can raise a <a
+					class="text-blue-500"
+					href="https://github.com/rajnandan1/frogmentwebsite/issues/new?assignees=&labels=&projects=&template=feature_request.md&title="
+					>feature request</a
+				> here. I will make sure to work on it.
 			</Accordion.Content>
 		</Accordion.Item>
 	</Accordion.Root>
