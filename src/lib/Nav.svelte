@@ -3,6 +3,9 @@
 	import { Menu } from 'lucide-svelte';
 	function clickDownload() {
 		gtag('event', 'download');
+		window.open(
+			'https://github.com/rajnandan1/frogmentwebsite/raw/main/universal-apple-darwin/release/bundle/dmg/Frogment_0.0.1_universal.dmg'
+		);
 	}
 </script>
 
