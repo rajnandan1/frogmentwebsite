@@ -66,24 +66,6 @@
 		</div>
 	</div>
 	<div class="mt-0 grid grid-cols-2 gap-2 border-b py-2">
-		<div class="col-span-1 font-medium">Open OpenAPI Spec Issues</div>
-		<div class="col-span-1 text-right">
-			<kbd
-				class="pointer-events-none mr-[1px] inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] text-xs font-medium text-muted-foreground opacity-100"
-				>⇧</kbd
-			>
-			<kbd
-				class="pointer-events-none mr-[1px] inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] text-xs font-medium text-muted-foreground opacity-100"
-				>⌘</kbd
-			>
-			<kbd
-				class="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] text-xs font-medium text-muted-foreground opacity-100"
-			>
-				I
-			</kbd>
-		</div>
-	</div>
-	<div class="mt-0 grid grid-cols-2 gap-2 border-b py-2">
 		<div class="col-span-1 font-medium">Quick Lint</div>
 		<div class="col-span-1 text-right">
 			<kbd
