@@ -13,15 +13,21 @@
 				to System Settings > Privacy > Open Anyway.
 			</Accordion.Content>
 		</Accordion.Item>
+		<Accordion.Item value="item-a">
+			<Accordion.Trigger>I am getting a warning at bottom.</Accordion.Trigger>
+			<Accordion.Content>
+				Make sure to move the app to Applications folder. This is a security feature by Apple.
+			</Accordion.Content>
+		</Accordion.Item>
 		<Accordion.Item value="item-2">
 			<Accordion.Trigger>Which Versions of OpenAPI does it support?</Accordion.Trigger>
 			<Accordion.Content>It supports all the versions of OpenAPI.</Accordion.Content>
 		</Accordion.Item>
 		<Accordion.Item value="item-3">
 			<Accordion.Trigger>Why is it not available for Windows?</Accordion.Trigger>
-			<Accordion.Content
-				>I don't have a windows laptop. It will come at some point, just not today</Accordion.Content
-			>
+			<Accordion.Content>
+				I don't have a windows laptop. It will come at some point, just not today
+			</Accordion.Content>
 		</Accordion.Item>
 		<Accordion.Item value="item-4">
 			<Accordion.Trigger>How do I raise a bug?</Accordion.Trigger>
